@@ -9,7 +9,7 @@
   }
 
 .list {
-   max-width: 1000px;
+   max-width: 1200px;
    margin: 0 auto;
 
    display: flex;
@@ -24,4 +24,24 @@
     padding: 10px;
     box-sizing: border-box;
     justify-content: unsafe center;
+    background-image: url(https://images.pexels.com/photos/414720/pexels-photo-414720.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+    background-position: center;
+}
+
+  .shop a {
+    justify-content: left;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    background-color: black;
   }
+
+.shop h4 {
+    color: ivory;
+}
+
+.shop p {
+    font-weight: bold;
+}
