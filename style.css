@@ -1,11 +1,15 @@
-* { 
-    border: 1px solid black; 
+
+html {
+  background: url(https://images.pexels.com/photos/414720/pexels-photo-414720.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .pageHeader {
    display: flex;
    justify-content: center;
    font-weight: bold;
+   background-color: black;
+   color: blanchedalmond;
   }
 
 .list {
@@ -24,24 +28,27 @@
     padding: 10px;
     box-sizing: border-box;
     justify-content: unsafe center;
-    background-image: url(https://images.pexels.com/photos/414720/pexels-photo-414720.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
     background-size: cover;
     background-position: center;
 }
 
   .shop a {
     justify-content: left;
-    color: white;
+    color: black;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 4px;
-    background-color: black;
+    display: block;
   }
 
 .shop h4 {
-    color: ivory;
-}
+    color: whitesmoke;
+    background-color: black;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
 
 .shop p {
     font-weight: bold;
+    max-width: 10em;
 }
